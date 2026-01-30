@@ -1,0 +1,4 @@
+Protein Name,Length (aa),Molecular Weight (Da),Theoretical pI,Instability Index,Aliphatic Index,GRAVY,Stability Class
+Omp25,92,9494.88,7.75,17.54,89.57,-0.25,Stable
+Omp16,606,12103.04,8.73,6.41,97.14,-0.038,stable
+Omp19,95,9671.06,7.78,10.53,82.63,-0.261,stable
