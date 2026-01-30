@@ -1,0 +1,33 @@
+Brucella-Vaccine-2025/                  ← Main repo name
+│
+├── README.md                           ← Must have (use template below)
+├── report.pdf                          ← Final 1-page or 2-page PDF report
+│
+├── 1_raw_data/                         ← Original inputs
+│   ├── Omp16.fasta
+│   ├── Omp19.fasta
+│   ├── Omp25.fasta
+│   ├── BP26.fasta
+│   └── BLS.fasta
+│
+├── 2_results/                          ← All your screenshots & tables
+│   ├── VaxiJen_results.xlsx            ← Scores of all 5 proteins
+│   ├── B_cell_epitopes_ABCpred.csv
+│   ├── B_cell_epitopes_BepiPred.csv
+│   ├── T_cell_CTL_IEDB.csv
+│   ├── T_cell_HTL_IEDB.csv
+│   └── Final_construct.fasta           ← Your final vaccine sequence
+│
+├── 3_figures/                          ← Beautiful images (recruiters open this first!)
+│   ├── Vaccine_3D_rainbow.png
+│   ├── Vaccine_surface.png
+│   ├── Epitope_mapping.png
+│   ├── Antigenicity_table.png
+│   └── Workflow_diagram.png
+│
+├── 4_structure/                        ← AlphaFold output
+│   └── Final_vaccine.pdb               ← 3D structure file
+│
+└── 5_misc/                             ← Optional but nice
+    ├── References.pdf
+    └── LinkedIn_post.txt
