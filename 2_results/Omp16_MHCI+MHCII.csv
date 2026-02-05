@@ -1,0 +1,11 @@
+Protein,Epitope Type,Sequence,Length,Start Position,Allele,%Rank / Percentile Rank,Binding Strength,Notes / Priority,Final Selection?
+Omp16,MHC-I (CTL),KAYDAELAK,9,82,BoLA-2:01201,0.01,Very Strong,Overlaps B-cell cluster,Yes
+Omp16,MHC-I (CTL),KLTGVLAAL,9,5,BoLA-T2c,0.09,Strong,"Overlaps B-cell cluster, top binder",Yes
+Omp16,MHC-I (CTL),KAADALAVK,9,73,BoLA-2:01201,0.04,Very Strong,"Very low rank, high priority",Yes
+Omp16,MHC-I (CTL),KLLKLTGVL,9,2,BoLA-T2c,0.56,Good,"Borderline strong, N-terminal",Optional
+Omp16,MHC-I (CTL),APVTTNDVL,9,24,BoLA-T2c,2.7,Weak,"Higher rank, lower priority",No
+Omp16,MHC-I (CTL),LAALSMAAL,9,10,BoLA-3:00201,1.2,Good,"Reasonable affinity, central region",Yes
+Omp16,MHC-II (HTL),DQALAKLAGEKVTVD  ,15,-, BoLA-DRB3_030201,2.14,Strong,"Very good rank, high priority",Yes
+Omp16,MHC-II (HTL),VDQALAKLAGEKVTV ,15,-, BoLA-DRB3_030201  ,3.21%,Strong,"Strong binder, overlaps with CTL region",Yes
+Omp16,MHC-II (HTL), QALAKLAGEKVTVDV,15,-,BoLA-DRB3_030201,8.83,Good,"Acceptable, but borderline",Optional
+Omp16,MHC-II (HTL), ADALAVKKAYDAELA  ,15,  ,BoLA-DRB3_0202  ,5.69,Good,"Reasonable, but slightly higher rank",Optional

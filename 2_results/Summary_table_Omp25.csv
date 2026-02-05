@@ -1,0 +1,9 @@
+Protein,Epitope Type,Sequence,Length,Start Pos,Allele,%Rank,Binding Strength,Overlap with B-cell?,Final Selected?,Notes
+Omp25,MHC-I (CTL),KAYDAELAK,9,55,BoLA-2:01201,0.01%,Strong,Yes,Yes,Top CTL candidate
+Omp25,MHC-I (CTL),QSNAALTYK,9,22,BoLA-2:01201,0.03%,Strong,—,Yes,Good affinity
+Omp25,MHC-I (CTL),TLVLSLVAL,9,4,BoLA-T2c,0.09%,Strong,—,Yes,Multiple alleles
+Omp25,MHC-I (CTL),KLTGVLAAL,9,5,BoLA-T2c,0.09%,Good,Partial,Optional,Borderline
+Omp25,MHC-I (CTL),KQGKLTVTV,9,30,BoLA-1:02301,0.97%,Good,—,Yes,—
+Omp25,MHC-II (HTL),VKKAYDAELAKKAAD,15,53,BoLA-DRB3*0101,2.55%,Strong,Yes,Yes,Overlaps CTL
+Omp25,MHC-II (HTL),EQSNAALTYKQGKLT,15,21,BoLA-DRB3*0101,3.55%,Strong,—,Yes,Hydrophilic
+Omp25,MHC-II (HTL),ADEAKKAADEAKKAA,15,66,BoLA-DRB3*0101,3.35%,Strong,—,Yes,Good helper

@@ -1,0 +1,11 @@
+Protein,Epitope Type,Sequence,Length,Start Position,Allele,%Rank / Percentile Rank,Binding Strength,Notes / Priority,Final Selection?
+Omp16,MHC-I (CTL),KAYDAELAK,9,82,BoLA-2:01201,0.01,Strong,Overlaps B-cell cluster,Yes
+Omp16,MHC-I (CTL),QSNAALTYK,9,22,BoLA-2:01201,0.03,Strong,Good affinity,Yes
+Omp16,MHC-I (CTL),TLVLSLVAL,9,4,BoLA-T2c,0.09,Strong,Multiple alleles,Yes
+Omp16,MHC-I (CTL),KLTGVLAAL,9,5,BoLA-T2c,0.09,Good,Borderline strong,Optional
+Omp16,MHC-I (CTL),ALTYKQGKL,9,26,BoLA-T2c,1.5,Weak,Lower priority,No
+Omp16,MHC-I (CTL),KQGKLTVTV,9,30,BoLA-1:02301,0.97,Good,-,Yes
+Omp16,MHC-II (HTL),VKKAYDAELAKKAAD   ,15,53,BoLA-DRB3*0101,2.55,Strong,Overlaps CTL epitope,Yes
+Omp16,MHC-II (HTL),EQSNAALTYKQGKLT ,15,21,BoLA-DRB3_0101,3.55%,Strong,Hydrophilic region,Yes
+Omp16,MHC-II (HTL), ADEAKKAADEAKKAA,15,66, BoLA-DRB3_0103,3.35%,Strong,-,Yes
+Omp16,MHC-II (HTL),DEAKKAADEAKKAAD ,15,74, BoLA-DRB3_0103,4.61%,Boderline,Borderline,No

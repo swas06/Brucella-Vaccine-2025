@@ -1,0 +1,18 @@
+Protein,Epitope Type,Sequence,Length,Start Position,Allele,%Rank / Percentile Rank,Binding Strength,Notes / Priority,Final Selection?
+Omp16,MHC-I (CTL),KAYDAELAK,9,82,BoLA-2:01201,0.01,Very Strong,Overlaps B-cell cluster,Yes
+Omp16,MHC-I (CTL),KLTGVLAAL,9,5,BoLA-T2c,0.09,Strong,"Overlaps B-cell cluster, top binder",Yes
+Omp16,MHC-I (CTL),KAADALAVK,9,73,BoLA-2:01201,0.04,Very Strong,"Very low rank, high priority",Yes
+Omp16,MHC-I (CTL),KLLKLTGVL,9,2,BoLA-T2c,0.56,Good,"Borderline strong, N-terminal",Optional
+Omp16,MHC-II (HTL),VDQALAKLAGEKVTV ,15,-, BoLA-DRB3_030201  ,3.21%,Strong,"Strong binder, overlaps with CTL region",Yes
+Omp16,MHC-II (HTL), QALAKLAGEKVTVDV,15,-,BoLA-DRB3_030201,8.83,Good,"Acceptable, but borderline",Optional
+Omp16,MHC-II (HTL), ADALAVKKAYDAELA  ,15,  ,BoLA-DRB3_0202  ,5.69,Good,"Reasonable, but slightly higher rank",Optional
+,,,,,,,,,
+,,,,,,,,,
+,Summary,,,,,,,,
+,,,,,,,,,
+,Total MHC-I (CTL) epitopes shown: 6,,,,,,,,
+,Total MHC-II (HTL) epitopes shown: 4,,,,,,,,
+,Strong binders (Very Strong + Strong): 7,,,,,,,,
+,Good binders: 3,,,,,,,,
+,Weak/Borderline: 0 (already filtered),,,,,,,,
+,"Final selected T-cell epitopes for Omp16: 6–8 (all ""Yes"" + 1–2 ""Optional"")",,,,,,,,
