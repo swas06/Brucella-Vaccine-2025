@@ -1,0 +1,56 @@
+Protein,Epitope Type,Sequence,Length,Start Position,Allele,%Rank / Percentile Rank,Binding Strength,Notes / Priority,Final Selection?,
+Omp25,B-cell,AEQSNAALTYKQGKLT,16,20,,— ,Strong Overlap, High confidence,Yes,
+Omp25,B-cell,DEAKKAADEAKKAADE,16,74,,— ,Strong Overlap, keep,Yes,
+Omp16,B-cell,AKLAGEKVTVDVSTAE,16,57,,— ,Partial overlap, keep if score high,Yes,
+Omp16,B-cell,DEAKKAADEAKKAADE,16,95,,— ,Strong Overlap, keep,Yes,
+Omp16,B-cell,LSMAALPAAFAAPVTT,16,14,,— ,Minimal overlap, Low Priority,Optional,
+Omp19,B-cell,AAVDSGKLTFEAGKVT,16,25,,— ,Minimal overlap, Low Priority,Optional,
+Omp19,B-cell,DEAKKAADEAKKAADE,16,77,,— ,Strong Overlap, keep,Yes,
+Omp25,MHC-I (CTL),KAYDAELAK,9,55,BoLA-2:01201,0.0001,Strong,Top CTL candidate,Yes,
+Omp25,MHC-I (CTL),QSNAALTYK,9,22,BoLA-2:01201,0.0003,Strong,Good affinity,Yes,
+Omp25,MHC-I (CTL),TLVLSLVAL,9,4,BoLA-T2c,0.0009,Strong,Multiple alleles,Yes,
+Omp25,MHC-I (CTL),KLTGVLAAL,9,5,BoLA-T2c,0.0009,Good,Borderline,Optional,
+Omp25,MHC-I (CTL),KQGKLTVTV,9,30,BoLA-1:02301,0.0097,Good,—,Yes,
+Omp25,MHC-II (HTL),VKKAYDAELAKKAAD,15,53,BoLA-DRB3*0101,0.0255,Strong,Overlaps CTL,Yes,
+Omp25,MHC-II (HTL),EQSNAALTYKQGKLT,15,21,BoLA-DRB3*0101,0.0355,Strong,Hydrophilic,Yes,
+Omp25,MHC-II (HTL),ADEAKKAADEAKKAA,15,66,BoLA-DRB3*0101,0.0335,Strong,Good helper,Yes,
+Omp16,MHC-I (CTL),KAYDAELAK,9,82,BoLA-2:01201,0.01,Very Strong,Overlaps B-cell cluster,Yes,
+Omp16,MHC-I (CTL),KLTGVLAAL,9,5,BoLA-T2c,0.09,Strong,Overlaps B-cell cluster, top binder,Yes
+Omp16,MHC-I (CTL),KAADALAVK,9,73,BoLA-2:01201,0.04,Very Strong,Very low rank, high priority,Yes
+Omp16,MHC-I (CTL),KLLKLTGVL,9,2,BoLA-T2c,0.56,Good,Borderline strong, N-terminal,Optional
+Omp16,MHC-I (CTL),APVTTNDVL,9,24,BoLA-T2c,2.7,Weak,Higher rank, lower priority,No
+Omp16,MHC-I (CTL),LAALSMAAL,9,10,BoLA-3:00201,1.2,Good,Reasonable affinity, central region,Yes
+Omp16,MHC-II (HTL),VDQALAKLAGEKVTV,15,-,BoLA-DRB3*030201,3.21%,Strong,Strong binder, overlaps with CTL region,Yes
+Omp16,MHC-II (HTL),QALAKLAGEKVTVDV,15,-,BoLA-DRB3*030201,8.83%,Good,Acceptable, but borderline,Optional
+Omp16,MHC-II (HTL),ADALAVKKAYDAELA,15,-,BoLA-DRB3*0202,5.69%,Good,Reasonable, but slightly higher rank,Optional
+Omp19,MHC-I (CTL),KAYDAELAK,9,58,BoLA-2:01201,0.01,Very Strong,Overlaps B-cell cluster, top binder,Yes
+Omp19,MHC-I (CTL),KAADALAVK,9,49,BoLA-2:01201,0.04,Strong,Very low rank, high priority,Yes
+Omp19,MHC-I (CTL),ALVAGCSAH,9,11,BoLA-1:00901,0.11,Strong,Good affinity, likely surface-exposed,Yes
+Omp19,MHC-I (CTL),AADALAVKK,9,50,BoLA-2:01201,0.15,Strong,Good affinity, likely surface-exposed,Yes
+Omp19,MHC-I (CTL),MKKTLVLSL,9,1,BoLA-T2c,2.1,Weak,Very low rank,No,
+Omp19,MHC-I (CTL),LVLSLVALV,9,5,BoLA-T2c,2.3,Weak,Very low rank,No,
+Omp19,MHC-II (HTL),ALAVKKAYDAELAKK,15,-,BoLA-DRB3*0201,1.12,Good,Reasonable affinity, central region,Yes
+Omp19,MHC-II (HTL),DALAVKKAYDAELAK,15,-,BoLA-DRB3*0201,2.05,Strong,Very good rank, high priority,Yes
+Omp19,MHC-II (HTL),LAVKKAYDAELAKKA,15,-,BoLA-DRB3*0202,4.23,Strong,Strong binder, overlaps with CTL region,Yes
+Omp19,MHC-II (HTL),GKVTVDVSTAEQKAA,15,-,BoLA-DRB3*0202,9.16,Good,Acceptable, but borderline,Optional
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
