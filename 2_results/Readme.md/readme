@@ -1,0 +1,25 @@
+## T-Cell Epitope Prediction
+
+### MHC Class I (CTL/CD8+ epitopes)
+- Tool: NetBoLApan 1.0  
+  Link: https://services.healthtech.dtu.dk/services/NetBoLApan-1.0/
+- Alleles used: BoLA-1:00901, BoLA-2:01201, BoLA-3:00101, BoLA-3:00201, BoLA-6:01301, BoLA-6:01401, BoLA-T2c, etc.
+- Peptide length: 8–14 (focus on 9–10 mers)
+- Filtered: %Rank ≤ 1% (strong binders)
+- Selected: [number] CTL epitopes across 3 proteins (Omp25, Omp16, Omp19)
+
+### MHC Class II (HTL/CD4+ epitopes)
+- Tool: NetMHCIIpan 4.3  
+  Link: https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.3/
+- Alleles used: BoLA-DRB3*0101, BoLA-DRB3*0202, BoLA-DRB3*1101, BoLA-DRB3*1501
+- Peptide length: 15-mer default
+- Filtered: %Rank ≤ 10%
+- Selected: [number] HTL epitopes
+
+### Final T-Cell Epitopes
+- Total selected: [total number, e.g. 15–18]  
+- File: [T_Cell_Selected_Epitopes.xlsx](2_results/T_Cell_Epitopes/T_Cell_Selected_Epitopes.xlsx)  
+- Raw data: [NetBoLApan_MHCI_Raw.csv](2_results/T_Cell_Epitopes/NetBoLApan_MHCI_Raw.csv)  
+- Screenshots: see folder `2_results/T_Cell_Epitopes/`
+
+Results include strong binders from Omp25, Omp16, and Omp19 with good overlap potential with previously selected B-cell epitopes.
